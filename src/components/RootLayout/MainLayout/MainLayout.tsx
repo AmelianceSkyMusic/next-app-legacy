@@ -6,8 +6,8 @@ interface MainLayoutProps {
 
 export function MainLayout({ children }: MainLayoutProps) {
 	return (
-		<header className={s.MainLayout}>
+		<main className={s.MainLayout}>
 			<div className={s.container}>{children}</div>
-		</header>
+		</main>
 	);
 }

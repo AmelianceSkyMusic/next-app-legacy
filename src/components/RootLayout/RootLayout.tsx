@@ -13,9 +13,9 @@ interface RootLayoutProps {
 export function RootLayout({ children }: RootLayoutProps) {
 	return (
 		<div className={s.RootLayout}>
-			<FooterLayout />
-			<MainLayout>{children}</MainLayout>
 			<HeaderLayout />
+			<MainLayout>{children}</MainLayout>
+			<FooterLayout />
 		</div>
 	);
 }
