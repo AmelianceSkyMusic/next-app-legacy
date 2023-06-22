@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { APP } from '~constants/APP';
+
 interface MetaProps {
 	title: string;
 	description?: string;
@@ -10,7 +12,7 @@ export function Meta({ title, description, children }: MetaProps) {
 	return (
 		<>
 			<Head>
-				<title>{`${title} | Rivne Climat`}</title>
+				<title>{`${title} | ${APP.name}`}</title>
 				{description ? (
 					<>
 						<meta name="description" content={description} />
