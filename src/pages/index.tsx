@@ -1,4 +1,4 @@
-import { HomePage } from '~/appPages/HomePage/HomePage';
+import { HomePage } from '~/pageComponents/HomePage/HomePage';
 import { Meta } from '~components/Meta/Meta';
 
 export default function Home() {

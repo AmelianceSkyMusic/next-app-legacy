@@ -4,7 +4,7 @@ import { FooterLayout } from './FooterLayout/FooterLayout';
 import { HeaderLayout } from './HeaderLayout/HeaderLayout';
 import { MainLayout } from './MainLayout/MainLayout';
 
-import s from './RootLayout.module.css';
+import s from './RootLayout.module.scss';
 
 interface RootLayoutProps {
 	children: React.ReactNode;

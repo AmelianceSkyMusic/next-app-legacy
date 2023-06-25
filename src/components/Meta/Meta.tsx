@@ -16,7 +16,7 @@ export function Meta({ title, description, children }: MetaProps) {
 				{description ? (
 					<>
 						<meta name="description" content={description} />
-						<meta name="og:title" content={`${title} | Rivne Climat`} />
+						<meta name="og:title" content={`${title} | ${APP.name}`} />
 						<meta name="og:description" content={description} />
 					</>
 				) : (
